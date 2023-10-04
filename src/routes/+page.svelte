@@ -2,11 +2,37 @@
 	import { base } from '$app/paths';
 </script>
 
-<h1 class="font-black text-9xl">Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<!-- background -->
+<div class="-z-10 absolute top-[200px] right-[420px]">
+	<p
+		class="w-0 h-0 pointer-events-none text-[900px] leading-[0] font-extrabold text-[rgba(0,0,0,0.2)] rotate-45"
+	>
+		:(
+	</p>
+</div>
 
-<p>
-	<a href="{base}/markdown-test">Go to markdown test page</a>
-</p>
+<div class="mx-16 prose">
+	<p class="text-xl">
+		Fondamenti di <abbr title="Human-Computer Interaction">HCI</abbr> &ndash; a.a. 2023-24
+	</p>
+	<p class="text-3xl font-bold mb-0">Gruppo</p>
+	<h1 class="text-9xl font-extrabold">Utenti<br />Scontenti</h1>
+</div>
 
-<button class="btn btn-primary">Button</button>
+<div class="container mx-auto">
+	<div class="prose mx-auto">
+		<h2>Consegne</h2>
+		<ul>
+			<li>
+				<a href="{base}/consegne/compito1">Vai a consegna 1</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<style>
+	:global(body) {
+		width: 100vw;
+		overflow-x: hidden;
+	}
+</style>
