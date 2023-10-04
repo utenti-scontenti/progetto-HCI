@@ -2,7 +2,7 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="mx-auto mb-32 prose relative">
+<div class="mx-auto mt-8 mb-16 prose relative">
 	<p
 		class="
 			pointer-events-none
@@ -15,7 +15,7 @@
 		:(
 	</p>
 
-	<p class="text-3xl font-bold mb-0">Gruppo</p>
+	<p class="text-3xl font-bold my-0">Gruppo</p>
 	<h1 class="text-9xl font-extrabold">Utenti<br />Scontenti</h1>
 </div>
 
@@ -29,17 +29,6 @@
 		</li>
 	</ul>
 </div>
-
-<!-- fixme: absolute bottom-0 is ok only if there isn't enough content to fill the whole screen heigth -->
-<footer class="absolute bottom-0 footer footer-center p-4 bg-base-300 text-base-content">
-	<aside>
-		<p>
-			Sito realizzato per il corso di <span class="font-bold"
-				>Fondamenti di <abbr title="Human-Computer Interaction">HCI</abbr> &ndash; a.a. 2023-24</span
-			>
-		</p>
-	</aside>
-</footer>
 
 <style>
 	:global(body) {

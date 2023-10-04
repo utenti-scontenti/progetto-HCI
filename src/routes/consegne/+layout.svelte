@@ -1,3 +1,3 @@
-<div class="mx-auto prose">
+<div class="mx-auto my-8 prose">
 	<slot />
 </div>
