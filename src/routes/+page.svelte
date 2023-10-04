@@ -2,12 +2,6 @@
 	import { base } from '$app/paths';
 </script>
 
-<div class="mx-16 mt-8 mb-16 prose">
-	<p class="text-xl">
-		Fondamenti di <abbr title="Human-Computer Interaction">HCI</abbr> &ndash; a.a. 2023-24
-	</p>
-</div>
-
 <div class="mx-auto mb-32 prose relative">
 	<p
 		class="
@@ -35,6 +29,17 @@
 		</li>
 	</ul>
 </div>
+
+<!-- fixme: absolute bottom-0 is ok only if there isn't enough content to fill the whole screen heigth -->
+<footer class="absolute bottom-0 footer footer-center p-4 bg-base-300 text-base-content">
+	<aside>
+		<p>
+			Sito realizzato per il corso di <span class="font-bold"
+				>Fondamenti di <abbr title="Human-Computer Interaction">HCI</abbr> &ndash; a.a. 2023-24</span
+			>
+		</p>
+	</aside>
+</footer>
 
 <style>
 	:global(body) {
