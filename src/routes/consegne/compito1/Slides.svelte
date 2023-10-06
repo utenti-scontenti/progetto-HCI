@@ -12,7 +12,7 @@
 	import { FileDownIcon } from 'lucide-svelte';
 </script>
 
-<div class="container mx-auto m-8 space-y-8">
+<div class="container mx-auto my-8 px-8 space-y-4">
 	<div class="mockup-window border bg-base-300">
 		<iframe class="w-full aspect-video" {src} title="slides" frameborder="0" />
 	</div>
