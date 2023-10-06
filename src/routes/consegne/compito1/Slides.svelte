@@ -9,6 +9,7 @@
 	 */
 	export let downloadName;
 
+	import { FileDownIcon } from 'lucide-svelte';
 	import { base } from '$app/paths';
 </script>
 
@@ -18,8 +19,8 @@
 	</div>
 
 	<div class="w-full flex flex-row-reverse">
-		<a href="{base}{pdfPath}" download={downloadName}
-			><button class="btn btn-primary btn-wide"> Download </button>
-		</a>
+		<a class="btn btn-primary btn-wide" href="{base}{pdfPath}" download={downloadName}
+			><FileDownIcon class="h-6 w-6" />Download</a
+		>
 	</div>
 </div>
