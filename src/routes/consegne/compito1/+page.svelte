@@ -1,4 +1,5 @@
 <script>
+	import { base } from '$app/paths';
 	import Prose from '$lib/Prose.svelte';
 
 	import Slides from './Slides.svelte';
@@ -9,4 +10,4 @@
 	<Content />
 </Prose>
 
-<Slides pdfPath="/consegne/compito1/slides.pdf" downloadName="slides.pdf" />
+<Slides src="{base}/consegne/compito1/slides.pdf" fileName="slides.pdf" />
