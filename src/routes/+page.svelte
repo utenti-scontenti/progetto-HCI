@@ -3,7 +3,7 @@
 	import Content from './Content.md';
 </script>
 
-<div class="mx-auto mt-8 mb-16 prose relative">
+<div class="mx-auto mt-8 mb-16 max-w-2xl relative">
 	<h1
 		class="
 			m-0
