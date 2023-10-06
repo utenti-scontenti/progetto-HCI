@@ -4,16 +4,26 @@
 </script>
 
 <div class="mx-auto mt-8 mb-16 prose relative">
-	<h1 class="text-9xl font-extrabold m-0">Utenti<br />Scontenti</h1>
+	<h1
+		class="
+			m-0
+			font-extrabold
+			text-8xl md:text-9xl
+			text-center md:text-left
+		"
+	>
+		Utenti<br />Scontenti
+	</h1>
 
 	<p
 		class="
-			pointer-events-none
-			select-none
-			-z-10 absolute right-0 bottom-0
+			pointer-events-none select-none
 			m-0 p-0
-			text-[275px] font-extrabold text-base-200
-			rotate-45 translate-y-20
+			-z-10
+			absolute right-0 bottom-0
+			rotate-45 -translate-x-8 translate-y-16 md:translate-x-0 md:translate-y-20
+			font-extrabold text-base-200
+			text-[215px] md:text-[275px]
 		"
 	>
 		:(
