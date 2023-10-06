@@ -1,8 +1,11 @@
 <script>
-	import { base } from '$app/paths';
+	import Prose from '$lib/Prose.svelte';
+	import Content from './Content.md';
 </script>
 
 <div class="mx-auto mt-8 mb-16 prose relative">
+	<h1 class="text-9xl font-extrabold m-0">Utenti<br />Scontenti</h1>
+
 	<p
 		class="
 			pointer-events-none
@@ -14,21 +17,11 @@
 	>
 		:(
 	</p>
-
-	<p class="text-3xl font-bold my-0">Gruppo</p>
-	<h1 class="text-9xl font-extrabold">Utenti<br />Scontenti</h1>
 </div>
 
-<div class="prose mx-auto">
-	<h2>Componenti</h2>
-	<p>Poi metteremo qui dei contenuti</p>
-	<h2>Consegne</h2>
-	<ul>
-		<li>
-			<a href="{base}/consegne/compito1">Vai a consegna 1</a>
-		</li>
-	</ul>
-</div>
+<Prose>
+	<Content />
+</Prose>
 
 <style>
 	:global(body) {
