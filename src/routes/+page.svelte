@@ -9,6 +9,7 @@
 	<p
 		class="
 			pointer-events-none
+			select-none
 			-z-10 absolute right-0 bottom-0
 			m-0 p-0
 			text-[275px] font-extrabold text-base-200
