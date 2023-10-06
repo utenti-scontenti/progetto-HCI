@@ -30,7 +30,6 @@
 		<slot />
 	</div>
 
-	<!-- fixme: absolute bottom-0 is ok only if there isn't enough content to fill the whole screen heigth -->
 	<footer class="footer footer-center p-4 bg-base-300 text-base-content">
 		<aside>
 			<p>
