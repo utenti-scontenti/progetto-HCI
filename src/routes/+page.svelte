@@ -20,11 +20,11 @@
 			absolute right-0 bottom-0 -z-10
 			translate-y-4 -translate-x-8 w-[200px] h-[200px]
 			md:translate-y-8 md:translate-x-10 md:w-[300px] md:h-[300px]
+			fill-base-200
 			"
 		width="119"
 		height="115"
 		viewBox="0 0 119 115"
-		fill="rgb(25, 30, 36)"
 		xmlns="http://www.w3.org/2000/svg"
 	>
 		<path
