@@ -8,7 +8,7 @@
 		class="
 			m-0
 			font-extrabold
-			text-8xl md:text-9xl
+			text-7xl md:text-9xl
 			text-center md:text-left
 		"
 	>
@@ -18,8 +18,8 @@
 	<svg
 		class="
 			absolute right-0 bottom-0 -z-10
-			translate-y-4 -translate-x-8 w-[200px] h-[200px]
-			md:translate-y-8 md:translate-x-10 md:w-[300px] md:h-[300px]
+			hidden
+			md:block md:translate-y-8 md:translate-x-10 md:w-[300px] md:h-[300px]
 			fill-base-200
 			"
 		width="119"
