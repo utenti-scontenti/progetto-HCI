@@ -1,9 +1,3 @@
-# Consegna 1
+# Consegna 1: Needfinding
 
-Qui ci mettiamo qualche contenuto prima della preview delle slides.
-
-- Una lista
-- di cose
-- importanti
-
-> Una citazione colta
+Alleghiamo qui sotto l'elaborato del primo compito.

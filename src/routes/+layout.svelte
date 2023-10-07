@@ -14,8 +14,7 @@
 
 	const pages = [
 		{ name: 'Consegna 1', routeId: '/consegne/compito1' },
-		{ name: 'Consegna 2', routeId: '/consegne/compito2' },
-		{ name: 'Consegna 3', routeId: '/consegne/compito3' }
+		{ name: 'Consegna 2', routeId: '/consegne/compito2' }
 	];
 </script>
 

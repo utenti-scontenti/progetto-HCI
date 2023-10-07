@@ -11,8 +11,11 @@
 - Matteo Gatti
 - Silvia Mosca
 
+## Dominio di interesse
+
+Migliorare la fruizione del servizio mensa
+
 ## Consegne
 
 - [Consegna 1]({base}/consegne/compito1)
 - [Consegna 2]({base}/consegne/compito2) (work in progress 🚧)
-- [Consegna 3]({base}/consegne/compito3) (work in progress 🚧)
