@@ -7,6 +7,11 @@
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
 
+	/**
+	 * @type {HTMLInputElement}
+	 */
+	let drawerToggle;
+
 	const pages = [
 		{ name: 'Consegna 1', routeId: '/consegne/compito1' },
 		{ name: 'Consegna 2', routeId: '/consegne/compito2' },
@@ -16,7 +21,7 @@
 
 <!-- drawer container -->
 <div class="drawer">
-	<input id="app-drawer" type="checkbox" class="drawer-toggle" />
+	<input bind:this={drawerToggle} id="app-drawer" type="checkbox" class="drawer-toggle" />
 
 	<!-- page content -->
 	<div class="drawer-content min-h-screen flex flex-col">
@@ -60,7 +65,11 @@
 		<ul class="menu p-4 w-80 min-h-full bg-base-200">
 			{#each pages as p}
 				<li>
-					<a class:active={$page.route.id === p.routeId} href="{base}{p.routeId}">{p.name}</a>
+					<a
+						class:active={$page.route.id === p.routeId}
+						href="{base}{p.routeId}"
+						on:click={() => (drawerToggle.checked = false)}>{p.name}</a
+					>
 				</li>
 			{/each}
 		</ul>
