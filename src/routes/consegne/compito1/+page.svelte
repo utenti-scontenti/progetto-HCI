@@ -11,5 +11,8 @@
 </Prose>
 
 <div class="container mx-auto my-8 px-8">
-	<PdfAttachment src="{base}/consegne/compito1/slides.pdf" fileName="slides.pdf" />
+	<PdfAttachment
+		src="{base}/consegne/compito1/Utenti Scontenti - needfinding.pdf"
+		fileName="Utenti Scontenti - needfinding.pdf"
+	/>
 </div>
