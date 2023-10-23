@@ -1,9 +1,9 @@
 <script>
 	import { base } from '$app/paths';
 	import Prose from '$lib/Prose.svelte';
+	import PdfAttachment from '$lib/PdfAttachment.svelte';
 
 	import Content from './Content_01.md';
-	import PdfAttachment from './PdfAttachment.svelte';
 </script>
 
 <Prose>
