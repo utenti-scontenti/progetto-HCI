@@ -18,4 +18,4 @@ Migliorare la fruizione del servizio mensa
 ## Consegne
 
 - [Consegna 1]({base}/consegne/compito1)
-- [Consegna 2]({base}/consegne/compito2) (work in progress 🚧)
+- [Consegna 2]({base}/consegne/compito2)
