@@ -53,7 +53,7 @@ Si evince quindi che, chi utilizza l'app per prenotare il cibo sarà in ogni mod
 
 ## I nostri task
 
-### Task semplice * Documentarsi sulle mense
+### Task semplice - Documentarsi sulle mense
 L'utente vuole informarsi sul servizio mensa che offre l'ateneo, perché ha bisogno di capire quale sia la mensa più adatta alle sue esigenze. L'obiettivo è discriminare le varie mense proposte e in base alle informazioni fornite decidere dove acquistare il pranzo desiderato.
 
 L'utente svolge quindi le seguenti attività:
@@ -62,7 +62,7 @@ L'utente svolge quindi le seguenti attività:
 * consulta i menù proposti dalle varie mense
 * visualizza i piatti del giorno e i pacchetti disponibili, prestando anche attenzione agli ingredienti ed identificando eventuali allergeni.
 
-### Task moderato -  Prenotare il pasto
+### Task moderato - Prenotare il pasto
 L'utente prenota il suo pasto prima di recarsi in mensa. Il nostro prototipo gli permette di effettuare scelte consapevoli che riguardano tutti gli aspetti della prenotazione.
 L'obiettivo è permettere di prenotare e pagare il pasto senza dover prima fare una coda fisica.
 
@@ -74,7 +74,7 @@ L'utente svolge i seguenti passi:
 * scegliere la modalità di pagamento, eventualmente utilizzando ticket e/o carnet
 * visualizzare la propria posizione in coda e le istruzioni per il ritiro.
 
-### Task complesso* Gestione del menù
+### Task complesso - Gestione del menù
 Lo staff della mensa deve definire per ogni giorno il menù che presenterà agli utenti. I menù possono essere già stati proposti in passato oppure essere nuovi. Un menù può essere definito anche in anticipo, se già si conoscono i programmi futuri dell'attività.
 
 Il responsabile dei menù può accedere alle informazioni sui menù e modificarle secondo la seguente procedura:
