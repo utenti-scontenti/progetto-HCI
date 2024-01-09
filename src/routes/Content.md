@@ -86,4 +86,8 @@ Il responsabile dei menù può accedere alle informazioni sui menù e modificarl
 ## Sistema per la gestione degli ordini
 Abbiamo pensato di inserire nella documentazione uno schema che descriva l’esperienza dell’utente durante l’utilizzo del sistema per la prenotazione del pasto:
 
-![Un flowchart che illustra le scelte che l'utente deve compiere per ordinare un pasto alla mensa]({diagramma} "Flowchart gestione ordini")
+<img
+ 	src={diagramma}
+	class="invert dark:invert-0"
+	alt="Un flowchart che illustra le scelte che l'utente deve compiere per ordinare un pasto alla mensa"
+	title="Flowchart gestione ordini">
