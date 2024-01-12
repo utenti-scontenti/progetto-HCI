@@ -17,7 +17,8 @@
 		{ name: 'Consegna 2', routeId: '/consegne/compito2' },
 		{ name: 'Consegna 3', routeId: '/consegne/compito3' },
 		{ name: 'Consegna 4', routeId: '/consegne/compito4' },
-		{ name: 'Consegna 6', routeId: '/consegne/compito6' }
+		{ name: 'Consegna 6', routeId: '/consegne/compito6' },
+		{ name: 'Presentazione finale', routeId: '/finale' }
 	];
 </script>
 
