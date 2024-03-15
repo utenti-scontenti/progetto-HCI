@@ -20,7 +20,8 @@
 				{ title: 'Consegna 1', routeId: '/consegne/compito1' },
 				{ title: 'Consegna 2', routeId: '/consegne/compito2' },
 				{ title: 'Consegna 3', routeId: '/consegne/compito3' },
-				{ title: 'Consegna 4', routeId: '/consegne/compito4' },
+				{ title: 'Consegna 4 (per prof)', routeId: '/consegne/compito4' },
+				{ title: 'Consegna 4 (per valutatori)', routeId: '/consegne/compito4-valutatori' },
 				{ title: 'Consegna 6', routeId: '/consegne/compito6' }
 			]
 		},
