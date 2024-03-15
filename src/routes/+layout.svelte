@@ -7,24 +7,30 @@
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
 
-	/**
-	 * @type {HTMLInputElement}
-	 */
-	let drawerToggle;
+	import HorizontalNavbarItem from '$lib/HorizontalNavbarItem.svelte';
+	import VerticalNavbarItem from '$lib/VerticalNavbarItem.svelte';
 
-	const pages = [
-		{ name: 'Consegna 1', routeId: '/consegne/compito1' },
-		{ name: 'Consegna 2', routeId: '/consegne/compito2' },
-		{ name: 'Consegna 3', routeId: '/consegne/compito3' },
-		{ name: 'Consegna 4', routeId: '/consegne/compito4' },
-		{ name: 'Consegna 6', routeId: '/consegne/compito6' },
-		{ name: 'Presentazione finale', routeId: '/finale' }
+	/** @type {boolean} */
+	let drawerOpen;
+
+	const navItems = [
+		{
+			title: 'Consegne',
+			children: [
+				{ title: 'Consegna 1', routeId: '/consegne/compito1' },
+				{ title: 'Consegna 2', routeId: '/consegne/compito2' },
+				{ title: 'Consegna 3', routeId: '/consegne/compito3' },
+				{ title: 'Consegna 4', routeId: '/consegne/compito4' },
+				{ title: 'Consegna 6', routeId: '/consegne/compito6' }
+			]
+		},
+		{ title: 'Presentazione finale', routeId: '/finale' }
 	];
 </script>
 
 <!-- drawer container -->
 <div class="drawer">
-	<input bind:this={drawerToggle} id="app-drawer" type="checkbox" class="drawer-toggle" />
+	<input bind:checked={drawerOpen} id="app-drawer" type="checkbox" class="drawer-toggle" />
 
 	<!-- page content -->
 	<div class="drawer-content min-h-screen flex flex-col">
@@ -37,10 +43,8 @@
 			</div>
 			<a class="btn btn-ghost normal-case text-xl font-bold" href="{base}/">Utenti Scontenti</a>
 			<ul class="menu hidden lg:menu-horizontal bg-base-200">
-				{#each pages as p}
-					<li>
-						<a class:active={$page.route.id === p.routeId} href="{base}{p.routeId}">{p.name}</a>
-					</li>
+				{#each navItems as item}
+					<HorizontalNavbarItem {item} />
 				{/each}
 			</ul>
 		</nav>
@@ -62,18 +66,12 @@
 		</footer>
 	</div>
 
-	<!-- drawe items -->
+	<!-- drawer items -->
 	<div class="drawer-side">
 		<label for="app-drawer" aria-label="close sidebar" class="drawer-overlay" />
 		<ul class="menu p-4 w-80 min-h-full bg-base-200">
-			{#each pages as p}
-				<li>
-					<a
-						class:active={$page.route.id === p.routeId}
-						href="{base}{p.routeId}"
-						on:click={() => (drawerToggle.checked = false)}>{p.name}</a
-					>
-				</li>
+			{#each navItems as item}
+				<VerticalNavbarItem {item} on:click={() => (drawerOpen = false)} />
 			{/each}
 		</ul>
 	</div>
