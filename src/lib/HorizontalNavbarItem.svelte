@@ -17,7 +17,7 @@
 <li>
 	{#if 'children' in item}
 		<details
-			bind:open={open}
+			bind:open
 			use:clickOutside
 			on:outclick
 			on:outclick={() => {

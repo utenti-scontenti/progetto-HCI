@@ -1,8 +1,8 @@
 <script>
 	import { base } from '$app/paths';
 	import Prose from '$lib/Prose.svelte';
-  import Attachment from '$lib/Attachment.svelte';
-  import PdfAttachment from '$lib/PdfAttachment.svelte';
+	import Attachment from '$lib/Attachment.svelte';
+	import PdfAttachment from '$lib/PdfAttachment.svelte';
 
 	import Content from './Content_finale.md';
 </script>
@@ -19,15 +19,24 @@
 </div>
 
 <div class="container mx-auto my-8 px-8">
-	<Attachment src="{base}/finale/video/Showcase prototipi 1.mp4" fileName="Showcase prototipi 1.mp4" />
+	<Attachment
+		src="{base}/finale/video/Showcase prototipi 1.mp4"
+		fileName="Showcase prototipi 1.mp4"
+	/>
 </div>
 
 <div class="container mx-auto my-8 px-8">
-	<Attachment src="{base}/finale/video/Showcase prototipi 2.mp4" fileName="Showcase prototipi 2.mp4" />
+	<Attachment
+		src="{base}/finale/video/Showcase prototipi 2.mp4"
+		fileName="Showcase prototipi 2.mp4"
+	/>
 </div>
 
 <div class="container mx-auto my-8 px-8">
-	<Attachment src="{base}/finale/video/Showcase prototipi 3.mp4" fileName="Showcase prototipi 3.mp4" />
+	<Attachment
+		src="{base}/finale/video/Showcase prototipi 3.mp4"
+		fileName="Showcase prototipi 3.mp4"
+	/>
 </div>
 
 <div class="container mx-auto my-8 px-8">
