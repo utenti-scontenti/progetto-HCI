@@ -5,7 +5,6 @@
 	import { MenuIcon } from 'lucide-svelte';
 
 	import { base } from '$app/paths';
-	import { page } from '$app/stores';
 
 	import HorizontalNavbarItem from '$lib/HorizontalNavbarItem.svelte';
 	import VerticalNavbarItem from '$lib/VerticalNavbarItem.svelte';
