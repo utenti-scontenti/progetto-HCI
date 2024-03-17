@@ -1,8 +1,3 @@
-<script>
-	import Prose from '$lib/Prose.svelte';
-	import Content from './Content.md';
-</script>
-
 <div class="mx-auto mt-8 mb-16 max-w-2xl relative">
 	<h1
 		class="
@@ -35,10 +30,6 @@
 		/>
 	</svg>
 </div>
-
-<Prose>
-	<Content />
-</Prose>
 
 <style>
 	:global(body) {

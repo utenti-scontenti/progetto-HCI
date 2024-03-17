@@ -1,8 +1,16 @@
 <script>
 	import { base } from '$app/paths';
-	import Attachment from '$lib/Attachment.svelte';
+
+  import Prose from '$lib/Prose.svelte'
+  import Attachment from '$lib/Attachment.svelte';
 	import PdfAttachment from '$lib/PdfAttachment.svelte';
+
+  import Header from './Header.svelte'
 </script>
+
+<Header />
+
+<Prose>
 
 ## Chi siamo
 
@@ -21,12 +29,16 @@ Mensa Express, "la mensa senza stress", è un sistema che permette di migliorare
 
 Questa è la presentazione che abbiamo mostrato alla fine del progetto, riassume tutto il suo svoglimento dall'ideazione, alla progettazione, alla valutazione con gli utenti.
 
+</Prose>
+
 <div class="container not-prose mx-auto my-8 px-8">
 	<PdfAttachment
 		src="{base}/finale/Utenti Scontenti - Presentazione finale.pdf"
 		fileName="Utenti Scontenti - Presentazione finale.pdf"
 	/>
 </div>
+
+<Prose>
 
 È possibile scaricare i video incorparati all'interno della presentazione nella [pagina dedicata]({base}/finale).
 
@@ -38,12 +50,11 @@ In questo video facciamo un tour dell'applicazione per gli utenti della mensa:
 1. visualizziamo i carnet disponibili
 1. mostriamo la pagina personale dell'utente
 
-<div class="container mx-auto my-8 px-8">
-	<PdfAttachment
-		src="{base}/video/video-home.mp4"
-		fileName="video-home.mp4"
-	/>
-</div>
+</Prose>
+
+<video class="mx-auto max-w-full" src="{base}/video/video-home.mp4" controls muted></video>
+
+<Prose>
 
 ## Prototipi interattivi
 
@@ -56,3 +67,5 @@ I prototipi sono stati realizzati con [Figma](https://www.figma.com/), e sono vi
 
 - [app per gli utenti](https://www.figma.com/file/UtT6J5iYG28s5QoHHWg1Ft/Prototipo-App---Finale?type=design&node-id=0%3A1&mode=design&t=0hReo74JAA38quXP-1)
 - [webapp per lo staff](https://www.figma.com/file/PvS2Dqjjw9kSbOMAVSGzWj/Prototipo-WebApp---Finale?type=design&node-id=0%3A1&mode=design&t=TgpntQE7Ovbjmf1H-1)
+
+</Prose>
