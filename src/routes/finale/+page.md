@@ -3,12 +3,14 @@
 	import Prose from '$lib/Prose.svelte';
 	import Attachment from '$lib/Attachment.svelte';
 	import PdfAttachment from '$lib/PdfAttachment.svelte';
-
-	import Content from './Content_finale.md';
 </script>
 
 <Prose>
-	<Content />
+
+# Presentazione finale
+
+Alleghiamo qui sotto la presentazione finale.
+
 </Prose>
 
 <div class="container mx-auto my-8 px-8">
@@ -17,6 +19,12 @@
 		fileName="Utenti Scontenti - Presentazione finale.pdf"
 	/>
 </div>
+
+<Prose>
+
+In caso di problemi di visualizzazione, alleghiamo anche i video che sono linkati all'interno della presentazione.
+
+</Prose>
 
 <div class="container mx-auto my-8 px-8">
 	<Attachment
