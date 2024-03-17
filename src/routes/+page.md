@@ -40,7 +40,7 @@ Questa è la presentazione che abbiamo mostrato alla fine del progetto, riassume
 
 <Prose>
 
-È possibile scaricare i video incorparati all'interno della presentazione nella [pagina dedicata]({base}/finale).
+È possibile scaricare i video incorporati all'interno della presentazione nella [pagina dedicata]({base}/finale).
 
 ## Video dimostrativo
 
