@@ -26,7 +26,7 @@
 			}}
 		>
 			<summary>{item.title}</summary>
-			<ul class="z-10">
+			<ul class="w-60 z-10">
 				{#each item.children as child}
 					<svelte:self
 						item={child}
